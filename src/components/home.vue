@@ -1,20 +1,15 @@
 <template>
-    <div class=container>
+    <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <h3>Column 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <div class="col-lg-12 border border-top-0 border-right-0 border-left-0 border-dark text-center">
+                <h2>Welcome to my Homepage</h2>
             </div>
-            <div class="col-sm-4">
-                <h3>Column 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <div class="col-lg-5 text-center mt-5" style="background-color:#e6e6e6">
+                <h3>Last Blog Entry</h3>
             </div>
-            <div class="col-sm-4">
-                <h3>Column 3</h3>        
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-5 text-center mt-5" style="background-color:#e6e6e6">
+                <h3>Last Tutorial</h3>
             </div>
         </div>
     </div>

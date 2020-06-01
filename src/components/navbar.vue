@@ -3,7 +3,7 @@
         <a class="navbar-brand mr-auto" v-on:click="$emit('click-home')">Kruemel's Page</a>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" v-on:click="$emit('click-tutorial')" >Anleitungen</a>
+                <a class="nav-link" v-on:click="$emit('click-tutorial')" >Tutorials</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" v-on:click="$emit('click-blog')">Blog</a>
