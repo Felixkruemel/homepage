@@ -1,18 +1,12 @@
 <template>
-    <nav class="navbar navbar-expand-sm bg-dark justify-content-center">
-        <a class="navbar-brand" >Kruemel's Page</a>
-        <ul class="navbar-nav">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand mr-auto" >Kruemel's Page</a>
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" >Active</a>
+                <a class="nav-link" v-on:click="$emit('click-tutorial')" >Anleitungen</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" >Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" >Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" v-on:click="$emit('click-blog')">Blog</a>
             </li>
         </ul>
     </nav>
@@ -21,6 +15,8 @@
 <script>
 export default {
   name: 'navbar',
+
+
   
 }
 </script>
