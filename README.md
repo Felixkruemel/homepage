@@ -1,24 +1,9 @@
-# homepage
+# my homepage
 
-## Project setup
-```
-npm install
-```
+Includes a Virtualenviroment with npm and required packages already installed.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Development server
+```npm run serve``` to host a development server of the page
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Production build
+```npm run build``` to get a production build in the dist directory
