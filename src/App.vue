@@ -4,6 +4,7 @@
     <blog v-if="blogshown"></blog>
     <tutorial v-if="tutorialshown"></tutorial>
     <home v-if="homeshown"></home>
+    <pagefooter></pagefooter>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import home from './components/home.vue'
 import navbar from './components/navbar.vue'
 import blog from './components/blog.vue'
 import tutorial from './components/tutorial.vue'
+import pagefooter from './components/pagefooter.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     home,
     navbar,
     blog,
-    tutorial
+    tutorial,
+    pagefooter
   },
   data () {
     return {
